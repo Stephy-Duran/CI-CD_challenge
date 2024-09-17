@@ -15,6 +15,7 @@ public class LogoutTest extends BaseTest {
         loginPage.login(JsonDataReader.getUserName(), JsonDataReader.getPassword());
         HomePage homePage = loginPage.submitDataLogin();
         loginPage = homePage.logout();
+        //verification
         Assert.assertTrue(loginPage.verifyLogout());
     }
 }
