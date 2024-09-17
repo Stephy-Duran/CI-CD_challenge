@@ -28,11 +28,16 @@ jobs:
           java-version: '22'
           distribution: 'temurin'
 
+
       #Dependencies and run test
       - name: Build with maven
-        run: mvn clean
+        run: |
+          cd Test-Sauce-Demo
+          mvn clean
       - name: Run tests
-        run: mvn -DbrowserName=${{ inputs.browserName || 'CHROME' }} verify
+        run: |
+          cd Test-Sauce-Demo
+          mvn -DbrowserName=${{ inputs.browserName || 'CHROME' }} verify
 
         #Allure Get history
       - name: Get Allure history
