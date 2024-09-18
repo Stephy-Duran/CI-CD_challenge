@@ -45,7 +45,7 @@ jobs:
         if: always()
         continue-on-error: true
         with:
-          ref: develop
+          ref: gh-pages
           path: gh-pages
 
         #Generate report
