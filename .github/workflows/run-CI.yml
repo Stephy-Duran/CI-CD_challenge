@@ -54,7 +54,7 @@ jobs:
         if: always()
         id: allure-report
         with:
-          allure_results: allure-results
+          allure_results: ${{ vars.ALLURE_RESULTS_PATH }}
           subfolder: Test-Sauce-Demo
           gh_pages: gh-pages
           allure_report: allure-report
