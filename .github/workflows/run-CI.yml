@@ -68,8 +68,6 @@ jobs:
           build_dir: allure-history
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
 
 
 
