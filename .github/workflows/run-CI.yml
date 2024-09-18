@@ -51,7 +51,7 @@ jobs:
       - name: Allure report action
         uses: simple-elf/allure-report-action@master
         if: always()
-        id: allure-report
+        id: Test-Sauce-Demo/allure-report
         with:
           allure_results: ${{ vars.ALLURE_RESULTS_PATH }}
           gh_pages: gh-pages
