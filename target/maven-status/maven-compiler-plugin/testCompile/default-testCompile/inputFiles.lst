@@ -1,0 +1,14 @@
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/CheckoutOverview.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/tests/LogoutTest.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/utils/BasePage.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/dataManager/UserShippingData.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/tests/utils/BaseTest.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/CheckoutCompletePage.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/tests/RemoveItemsTest.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/utils/DriverSetup.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/HomePage.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/LoginPage.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/ShoppingCartPage.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/tests/PurchaseProductTest.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/dataManager/JsonDataReader.java
+/home/runner/work/CI-CD_challenge/CI-CD_challenge/Test-Sauce-Demo/src/test/java/com.globant.academy/pages/CheckoutUserInformationPage.java

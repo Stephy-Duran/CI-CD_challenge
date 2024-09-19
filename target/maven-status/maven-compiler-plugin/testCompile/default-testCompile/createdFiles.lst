@@ -1,0 +1,14 @@
+com/globant/academy/pages/utils/BasePage.class
+com/globant/academy/tests/PurchaseProductTest.class
+com/globant/academy/dataManager/JsonDataReader.class
+com/globant/academy/pages/HomePage.class
+com/globant/academy/pages/CheckoutOverview.class
+com/globant/academy/pages/CheckoutUserInformationPage.class
+com/globant/academy/tests/utils/BaseTest.class
+com/globant/academy/pages/ShoppingCartPage.class
+com/globant/academy/utils/DriverSetup.class
+com/globant/academy/tests/LogoutTest.class
+com/globant/academy/pages/LoginPage.class
+com/globant/academy/tests/RemoveItemsTest.class
+com/globant/academy/pages/CheckoutCompletePage.class
+com/globant/academy/dataManager/UserShippingData.class
