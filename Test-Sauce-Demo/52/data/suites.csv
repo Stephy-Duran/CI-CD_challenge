@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 19 00:16:07 GMT 2024","Thu Sep 19 00:16:08 GMT 2024","1689","Web automation Suit","Logout test","com.globant.academy.tests.LogoutTest","com.globant.academy.tests.LogoutTest","validateSuccessfulLogout","validateSuccessfulLogout",""
