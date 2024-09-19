@@ -58,7 +58,6 @@ jobs:
           gh_pages: gh-pages-storage1
           allure_report: allure-report
           allure_history: allure-history
-          subfolder: Test-Sauce-Demo
 
         #post report
       - name: Deploy report to Github Pages
@@ -66,7 +65,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages-storage1
-          build_dir: Test-Sauce-Demo/allure-history
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
