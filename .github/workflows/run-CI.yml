@@ -45,8 +45,8 @@ jobs:
         if: always()
         continue-on-error: true
         with:
-          ref: gh-pages-storage1)
-          path: gh-pages-storage1)
+          ref: gh-pages-storage1
+          path: gh-pages-storage1
 
         #Generate report
       - name: Allure report action
@@ -55,7 +55,7 @@ jobs:
         id: allure-report
         with:
           allure_results: Test-Sauce-Demo/allure-results
-          gh_pages: gh-pages-storage1)
+          gh_pages: gh-pages-storage1
           allure_report: allure-report
           allure_history: allure-history
           subfolder: Test-Sauce-Demo
@@ -65,7 +65,7 @@ jobs:
         if: always()
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: gh-pages-storage1)
+          target_branch: gh-pages-storage1
           build_dir: allure-history
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
