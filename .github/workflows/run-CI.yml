@@ -66,7 +66,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages-storage1
-          build_dir: Test-Sauce-Demo
+          build_dir: Test-Sauce-Demo/allure-history
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
